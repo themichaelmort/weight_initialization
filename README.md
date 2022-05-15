@@ -5,14 +5,14 @@ In this project, I explored how 3 methods of initializing weights from deep lear
 
 ## At a Glance
 
-* Dataset - FashionMNIST, a collection of color images of clothes, labeled according to 10 categoris
-* Model - Custom convultional neural network (CNN) consisting of 3 layers.     
+* Dataset - FashionMNIST, a collection of color images of clothes, labeled according to 10 categories
+* Model - Custom convolutional neural network (CNN) consisting of 3 layers.     
     * Channels x 10 2d convolution layer with 3x3 kernel & 1 pixel of padding
     * 10 x 15 2d convolution layer with 3x3 kernel & 1 pixel of padding
     * 15 x output_size 2d convolution layer with a 28x28 kernel and no padding
         * Note: This last layer reduces a 28x28 image to one value that can be used for classification.  
 * Optimizer - Adam (although the code is set up to work with SGD as well)
-* Loss - Pytorch's CrossEntropyLoss
+* Loss - PyTorch's CrossEntropyLoss
 * Result Visualization - Plots and saves the loss for training and validation and the accuracy during training. Examples shown below.
 
 ## Weight Initialization Strategies
